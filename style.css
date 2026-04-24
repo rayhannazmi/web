@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #0f172a;
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
+    --bg-color: #8c898e;
+    --text-main: #41443a;
+    --text-muted: #373c45;
 
-    --gradient-primary: linear-gradient(135deg, #06b6d4, #8b5cf6);
-    --gradient-hover: linear-gradient(135deg, #0891b2, #7c3aed);
+    --gradient-primary: linear-gradient(135deg, #464f50, #7f7e80);
+    --gradient-hover: linear-gradient(135deg, #9f9f9f, #3a3939);
 
-    --card-bg: rgba(30, 41, 59, 0.7);
+    --card-bg: rgba(181, 209, 255, 0.7);
     --card-border: #334155;
     --border-radius: 16px;
 }
@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(15, 23, 42, 0.85);
+    background: rgba(225, 235, 255, 0.85);
     backdrop-filter: blur(10px);
     z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -126,7 +126,7 @@ body {
 .btn {
     display: inline-block;
     background: var(--gradient-primary);
-    color: white;
+    color: rgb(180, 159, 159);
     padding: 14px 32px;
     text-decoration: none;
     border-radius: 50px;
@@ -140,13 +140,13 @@ body {
 .btn:hover {
     background: var(--gradient-hover);
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 8px 25px rgba(6, 182, 212, 0.5);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.5);
 }
 
 .btn-outline {
     background: transparent;
     color: var(--text-main);
-    border: 2px solid #8b5cf6;
+    border: 2px solid #3d3a43;
     box-shadow: none;
 }
 
@@ -195,7 +195,7 @@ body {
     object-fit: cover;
     padding: 5px;
     background: var(--gradient-primary);
-    box-shadow: 0 0 30px rgba(6, 182, 212, 0.4);
+    box-shadow: 0 0 30px rgba(159, 141, 141, 0.379);
 }
 
 .skills-container {
@@ -207,7 +207,7 @@ body {
 }
 
 .skill-badge {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(142, 137, 137, 0.781);
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid var(--card-border);
@@ -222,9 +222,9 @@ body {
 }
 
 .skill-badge:hover {
-    border-color: #06b6d4;
-    box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
-    color: #06b6d4;
+    border-color: #909090;
+    box-shadow: 0 0 15px rgba(12, 104, 120, 0.549);
+    color: #c0c4c5;
     transform: translateY(-2px);
 }
 
@@ -249,8 +249,8 @@ body {
 
 .card:hover {
     transform: translateY(-8px);
-    border-color: #8b5cf6;
-    box-shadow: 0 15px 30px rgba(139, 92, 246, 0.2);
+    border-color: #504f51;
+    box-shadow: 0 15px 30px rgba(95, 86, 118, 0.729);
 }
 
 .card img {
@@ -275,7 +275,7 @@ body {
 .card-content h3 {
     font-size: 1.3rem;
     margin-bottom: 12px;
-    color: white;
+    color: rgb(114, 114, 114);
 }
 
 .card-content p {
@@ -296,9 +296,9 @@ body {
 }
 
 .back-link:hover {
-    color: #06b6d4;
+    color: #b9b9b9;
     transform: translateX(-8px);
-    text-shadow: 0 0 10px rgba(6, 182, 212, 0.5);
+    text-shadow: 0 0 10px rgba(198, 198, 198, 0.5);
 }
 
 .project-header {
@@ -365,7 +365,7 @@ body {
 }
 
 .contact-links a:hover {
-    color: #06b6d4;
+    color: #bcbcbc;
     text-shadow: 0 0 10px rgba(6, 182, 212, 0.5);
 }
 
